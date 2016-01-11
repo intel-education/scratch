@@ -1107,7 +1107,7 @@ accordance with the terms of that agreement
         $.getScript('https://autobahn.s3.amazonaws.com/autobahnjs/latest/autobahn.min.jgz')
         .done(function(script, textStatus) {
 
-			$.getScript('https://cdn.rawgit.com/intel-education/scratch/gh-pages/extension/realsense/resources/intel/realsense.js')
+			$.getScript('https://cdn.rawgit.com/intel-education/scratch/gh-pages/realsense/extension/resources/intel/realsense.js')
             .done(function(script, textStatus) {
              
                 dependencyAllCreated();
